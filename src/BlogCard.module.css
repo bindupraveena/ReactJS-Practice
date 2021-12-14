@@ -1,0 +1,14 @@
+.blogClass {
+  box-sizing: border-box;
+  margin: 16px;
+  padding: 16px;
+  box-shadow: 10px 10px 10px grey;
+  background-color: rgb(155, 177, 211);
+}
+
+@media (min-width: 992px) {
+  .blogClass {
+    width: 20%;
+    display: inline-block;
+  }
+}
